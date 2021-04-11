@@ -1,5 +1,5 @@
 " all settings related to nvim-tree
-source ~/.config/nvim/nvim-tree.vim
+source ~/.config/nvim/nvim_tree.vim
 
 " setup plugins using vim-plug
 source ~/.config/nvim/plugins.vim
