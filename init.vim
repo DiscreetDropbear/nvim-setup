@@ -1,23 +1,22 @@
-" all settings related to nvim-tree
-source ~/.config/nvim/nvim-tree.vim
-
-" setup plugins using vim-plug
+source ~/.config/nvim/nvim_tree.vim
 source ~/.config/nvim/plugins.vim
-
-" set settings for rust analyzer lsp
 source ~/.config/nvim/rust_analyzer.vim
-
-" set up the colour scheme
 source ~/.config/nvim/colourscheme.vim
+source ~/.config/nvim/completion.vim
+source ~/.config/nvim/keybindings.vim
+source ~/.config/nvim/lsp_configurations.vim
 
 " Enable syntax highlighting and file type identification, plugin and indenting
 syntax enable
 filetype plugin indent on
 set number
-"set termguicolors     " enable true colors support
+" enable true colors support
+set termguicolors     
 
-" key bindings to move windows around
-noremap <C-J> <C-W>w
-noremap <C-K> <C-W>W
-noremap <C-L> <C-W>l
-noremap <C-H> <C-W>h
+" Set completeopt to have a better completion experience
+set completeopt=menu,menuone,noselect
+
+" Avoid showing extra messages when using completion
+set shortmess+=c
+
+

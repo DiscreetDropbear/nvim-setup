@@ -2,8 +2,7 @@
 call plug#begin('~/.vim/plugged')
 
 	" file tree
-	" for file icons
-	Plug 'kyazdani42/nvim-web-devicons' 
+	Plug 'kyazdani42/nvim-web-devicons' " for file icons 
 	Plug 'kyazdani42/nvim-tree.lua'
 
 	" ayu theme
@@ -16,6 +15,9 @@ call plug#begin('~/.vim/plugged')
 	Plug 'nvim-lua/lsp_extensions.nvim'
 
 	" Autocompletion framework for built-in LSP
-	Plug 'nvim-lua/completion-nvim'
+	Plug 'hrsh7th/nvim-compe'
+
+	" Snippet engine to handle LSP snippets
+	Plug 'hrsh7th/vim-vsnip'
 
 call plug#end()
