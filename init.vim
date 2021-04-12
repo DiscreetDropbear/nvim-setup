@@ -1,4 +1,7 @@
+" all settings related to nvim-tree
 source ~/.config/nvim/nvim_tree.vim
+
+" setup plugins using vim-plug
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/rust_analyzer.vim
 source ~/.config/nvim/colourscheme.vim
